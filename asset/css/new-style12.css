@@ -1,0 +1,400 @@
+
+.card-container {
+  flex:50%;
+  margin:0px;
+  width:50%;
+  float:left;
+}
+.card-container .card {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+}
+.card-container .card a {
+  padding: 30px;
+  width: 100%;
+  height:200px;
+  border:1px solid black;
+  background: #0166b3;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.25s ease;
+}
+.card-container .card a:hover {
+  transform: translate(-0px, -10px);
+  border-color: #0166b3;
+}
+.card-container .card a:hover .card--display {
+  display: none;
+}
+.card-container .card a:hover .card--hover {
+  display: block;
+}
+.card-container .card a .card--display img {
+  font-size: 60px;
+  margin-top:60px;
+}
+.card-container .card a .card--display h2 {
+  margin: -1px 0 0;  font-size:18px !important; 
+}
+.card-container .card a .card--hover {
+  display: none;
+}
+.card-container .card a .card--hover h2 {
+  margin: 20px 0;
+}
+.card-container .card a .card--hover p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.card-container .card a .card--hover p.link {
+  margin: 20px 0 0;
+  font-weight: bold;
+  color: #5bc0eb;
+}
+.card-container .card .card--border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: 2px dashed black;
+  z-index: -1;
+}
+.card-container .card.card--dark a {
+  color: white !important;
+  background-color:#0166b3;
+  border-color: #0166b3;
+}
+.card-container .card.card--dark a .card--hover .link {
+  color: #fff;
+}
+@media screen and (max-width:880px) {
+.card-container {
+  flex:100%;
+  margin:0px;
+  width:100%;
+  float:left;
+}
+
+	
+}
+.sec-one{
+    padding:30px 0px;
+    /*border-radius:50px;*/
+}
+.sec-two{
+   padding:30px 0px; 
+   background-color:#fff;
+    /*border-radius:50px;*/
+}
+.sec-start{
+    /*margin-top:50px;*/
+}
+.sec-end{
+    /*margin-bottom:50px;*/
+}
+.list-style	ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  /*grid-gap: 1rem;*/
+}
+
+.list-style	ul li {
+  display: grid;
+  grid-template-columns: 0 1fr;
+  grid-gap: 1.75em;
+  align-items: start;
+  margin:10px 0px;
+  font-size: 14px;
+  line-height: 1.25;
+  width: 100%;
+  align-items: center;
+  font-size: inherit;
+  
+    
+}
+
+.list-style	ul li::before {
+    content: "\f00c";
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: #b17135;
+    color: white;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-left: 6px;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.about-section-7{
+ margin:50px 0px;   
+}
+/*Contact Page Css*/
+.homepage-careers-region {
+    padding: 50px 0px 50px 0px;
+    position: relative;
+    min-height: 400px;
+    background-color: blanchedalmond;
+}
+#health-story .bg-whc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position: 0 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/contact.jpg);
+    z-index: -1;
+}
+.col-md-6{float:left;}
+#health-story input[type=text] {
+  width: 100%;
+  padding:12px;
+  display: inline-block;
+  border: none;
+  background: #f2f2f2;
+  border-radius:0px;
+  border-bottom:2px solid #333;
+}
+
+#health-story input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.centres-main .centertit{font-weight: 500;}
+.suggeted h3{font-size: 20px;font-weight: 500;}
+.expert-callback h4 a {
+    background: #f55101;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 44px;
+    margin-left: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+	
+}
+.patientstitle p{margin-bottom:0px;}
+.simplesteps{
+    width: 16%;
+    float: left;
+    text-align: center;
+    padding:17px 10px;
+    margin-right: .5%;
+    background: #f5f5f5;
+	color:#000;
+    position: relative;
+	margin-bottom: 25px;
+	font-size: 13px;
+	line-height:20px;
+height:350px;
+}
+.simplesteps::after {
+    background:url(https://www.santevitahospital.com/images/circle-arrow.png) no-repeat;
+    position: absolute;
+    content: '';
+    right: -14px;
+    top: 45%;
+    width: 24px;
+    height: 24px;
+    z-index: 9;
+}
+
+.simplesteps:last-child::after {
+background: 0 0;}
+.popular-destinations p::after{background: #fff; top:5px;}
+.text-counter{font-size:24px; line-height:35px; font-weight:bold; border-right: 1px solid #000;}
+.text-counter1{display: inline-block; width: 32%; color:#70002b; font-size: 52px;}
+.map-img {background-image:url(images/contact-bg.png);background-position: center; background-repeat: no-repeat; background-size: 100%;padding-top:0%;padding-bottom:10%;}
+.contect-text1 {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #b17135;
+    padding-bottom: 10px;
+}
+
+.form-img{background-image:url(images/form-img.jpg);background-position: center center; background-repeat: no-repeat; background-size: cover;padding-top:40px;padding-bottom:70px;}.banner-text2{font-size:50px;text-shadow:2px 2px #fff; line-height:60px; max-width:580px; font-weight:bold; text-align:left; color:#000;padding-top:26%; }
+.wiki-Button-Primary {
+    background-color: #017fbc;
+    display: inline-block;
+    font-size:1.2rem;
+    position: relative;
+	background:url(https://www.santevitahospital.com/images/01/form-icon4.png) #017fbc no-repeat;
+	background-position: 8px 40%;
+	padding-left:25px;
+	box-shadow: 5px 1px 20px rgba(0,0,0,0.4);
+	outline:none;
+	margin-top:20px;
+}
+.wiki-Button-Primary:hover {
+    background-color: #017fbc;
+    display: inline-block;
+    font-size:1.2rem;
+    position: relative;
+	background:url(https://www.santevitahospital.com/images/01/form-icon4.png) #017fbc no-repeat;
+	background-position: 8px 40%;
+	padding-left:25px;
+	box-shadow: 5px 1px 20px rgba(0,0,0,0.6);
+	outline:none;
+	margin-top:20px;
+}
+.wiki-Button-Primary>input[type=submit] {
+    color: #fff;
+    padding: .35rem 3rem .35rem 3.5rem;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+	outline:none;
+}
+.form-group1{padding-right:0px;}
+.journeyCntr.top-overlap {margin-top: -20px;}
+.map-whc{width:100%; height:510px;}
+ @media screen and (max-width:880px) {
+ .journeyCntr.top-overlap {margin-top: 45px;}
+ .form-group1{padding-right:15px; padding-left:0px;}.Wiki-boxitem{width:200px;}.Wiki-wrapper{width: auto;}.expert-callback {display:none !important;}.map-whc{width:100%; height:auto; padding-left:15px;}
+ .simplesteps{ width:49.5%;}.simplesteps::after{display:none !important;} .partner {display:none !important;}
+ .text-counter{font-size:24px; line-height:35px; font-weight:bold; border-right:0px solid #000; border-bottom:1px solid #f3f3f3;}
+ .text-counter1{display: inline-block; width:100%; color:#70002b; font-size:32px;}
+ .form-group1{width:100% !important; margin:3px  0 14px 0px !important;}
+ }
+ 
+ p{font-size:14px;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border:0px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+.box{ display:none;}
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border:0px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom:0px solid #eee; 
+		position: relative;
+		padding-left:1%;
+		text-align:center;
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width:50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		float:left;
+	}
+
+}
+.x-container.max.width {position: static;}
+.e360-47.x-column {text-align: center;background-color: transparent;z-index: 1;margin-top: -75px;margin-bottom: 15px;}
+.vn {width: 12%;box-shadow: 5px 1px 20px rgba(0,0,0,0.4);border-radius: 100%;}
+ @media screen and (max-width:880px) {.vn{ width:34%;}.e360-47.x-column {margin-top: -70px;}}
+ #keyword_searcher {
+  
+  display: none;
+  padding: 0;
+}
+p{font-size:14px;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border:0px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+.box{ display:none;}
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: revert; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border:0px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom:0px solid #eee; 
+		position: relative;
+		padding-left:1%;
+		text-align:center;
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width:50%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		float:left;
+	}
+
+}
+
+.con-sec{
+ margin:50px 0px;   
+}
+
+
+@media only screen and (max-width: 576px){
+    .mt-sm-30{
+        margin-top: 30px;
+    }
+}

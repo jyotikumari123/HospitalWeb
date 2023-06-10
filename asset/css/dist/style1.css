@@ -1,0 +1,53 @@
+.form-box{width:100%; padding:0px; margin-bottom:10px;}
+.form-box1{width:100%; padding:0px; margin-bottom:10px; padding:10px 6px;}
+.top-text{text-align:center;border-bottom: 1px solid #fff;padding-bottom: 11px;font-size:1.75rem;}
+.wiki-Button-Primary {
+    background-color:#0b67b2;
+    display: inline-block;
+    font-size: 1.2rem;
+    position: relative;
+    background: url(https://www.santevitahospital.com/../../images/01/form-icon4.png) #0b67b2 no-repeat;
+    background-position: 8px 30%;
+    box-shadow: 5px 1px 20px rgba(0,0,0,0.4);
+    outline: none;
+    margin-top: 20px;
+	border: 0;
+	color: #fff;
+	padding: .75rem 3rem .75rem 3.5rem;
+}
+.homepage-careers-region input[type=text], .homepage-careers-region input[type=file] {
+    width:100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    background: #fff !important;
+    margin: 5px;
+}
+.homepage-careers-region input[type=email] {
+    width:100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    background: #fff !important;
+    margin: 5px;
+}
+.page-footer__newsletter-signup {
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    flex-direction: column;
+    padding:20px;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 2;
+    height:550px;
+    max-width: 65%;
+    margin-top:200px;
+}
+.page-footer__newsletter-signup {
+    background-color: #b1d355;
+    background-image: none;
+    color: #0b67b2;
+    padding: 2rem 1rem;
+}
+
