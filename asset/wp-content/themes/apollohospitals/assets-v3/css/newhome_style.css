@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5{ color: #161616; font-weight: 800;}
 .btn-outline-primary:hover{  background-color:  #9d0000 !important; border-color: #c91f1f !important; color: #FFF;}
 .btn-outline-primary a:hover{   color: #FDB913;}
 
-header .form-control{ font-size: 12px;padding: 11px;}
+header .form-control{ font-size: 12px;padding: 11px;height: fit-content;}
 .ah-hdr .form-control{ font-size: 12px;padding: 11px;}
 .ah-hdr .btn{border-radius: 8px; font-weight: 500;}
 .ah-hdr  a.btn-outline-primary:hover {
